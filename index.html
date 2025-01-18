@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <script src="https://username.github.io/LubeCoReviews/reviews.js"></script>
+</head>
+<body>
+    <div id="reviews-container"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const totalReviews = 2733;
+            const reviews = generateReviews(totalReviews);
+            displayReviews(reviews);
+        });
+    </script>
+</body>
+</html>
